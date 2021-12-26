@@ -8,8 +8,6 @@ const RegistrPage = () => {
     lastname: {value: "", isValide: true},
     email: {value: "", isValide: true},
     password: {value: "", isValide: true},
-    // password: {value: "", isValide: true},
-
   })
 
   const handelValidation = (key, value) => {
